@@ -1,0 +1,36 @@
+body {
+    background-image: url("GradientBG.png");
+    background: cover;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+img:hover {
+    border-radius: 85px;
+    cursor: pointer;
+}
+
+.column {
+    display: inline;
+    padding: 10pxpx;
+}
